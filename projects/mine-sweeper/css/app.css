@@ -1,0 +1,76 @@
+.hidden{
+    display: none;
+}
+
+body {
+    
+    background-color:  white;
+    background-image: url('img/BackGround.jpg');
+    color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.game-field {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head-line {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.is-shown {
+
+    background-color: grey;
+}
+
+
+.footer {
+
+   
+    margin-top: auto;
+    margin-bottom: 0 px;
+    
+    background-color: black;
+    color: white;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.bouttons {
+   
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.beginer {
+    background-color: green
+}
+
+.medium {
+    background-color: rgb(212, 212, 20)
+}
+.expert {
+    background-color: rgb(198, 35, 23)
+}
+
+.restart {
+    margin: auto;
+}
+
+.board td {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: 0.5s;
+    margin-top: 200px;
+    border-color: white;
+    overflow: hidden;
+    white-space: nowrap;
+}
+

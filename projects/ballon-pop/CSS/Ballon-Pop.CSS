@@ -1,0 +1,39 @@
+
+.track {
+
+    background-color: black;
+    height: 750px;
+    padding: 20px;
+}
+
+.baloon {
+
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    position: absolute; 
+    margin-top: 650px; 
+}
+
+.baloon1 {
+    background-color: aquamarine;
+    left: 10px;
+}
+
+.baloon2 {
+    background-color: rgb(155, 60, 60);
+    left: 150px;
+}
+.baloon3 {
+    background-color: rgb(60, 155, 62);
+    left: 300px;
+}
+.baloon4 {
+    background-color: rgb(152, 60, 155);
+    left: 450px;
+}
+.baloon5 {
+    background-color: rgb(230, 225, 225);
+    left: 600px;
+}

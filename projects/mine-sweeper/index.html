@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine Sweeper - Yotam Gross</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <h1 class="head-line">Mine Sweeper</h1>
+
+    <div class="game-field">
+        <h2>What size you want?</h2>
+        <h3></h3>
+        <div class="bouttons">
+            <button class="beginer" onclick="initGame(4)">Beginner</button>
+            <button class="medium" onclick="initGame(8)">Medium</button>
+            <button class="expert" onclick="initGame(12)">Expert</button>
+        </div>
+        
+        <div>
+            <button  class="restart hidden head-line" onclick="restart()">😃</button>
+            <h4></h4>
+            <div class='seconds-counter'> </div>
+        </div>
+
+        <table border="1" cellpadding="10">
+            <tbody class="board"></tbody>
+        </table>
+
+    </div>
+
+    <div>
+        <h5 class="best-scores"></h5>
+    </div>
+
+    <div class="footer">
+        <h4 class="head-line">Yotam Gross</h4>
+    </div>
+    <script src="js/utils.js"></script>
+    <script src="js/game.js"></script>
+</body>
+</html>
