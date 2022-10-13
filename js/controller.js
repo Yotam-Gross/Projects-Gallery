@@ -54,8 +54,12 @@ $('.modals-buttons').html(`<button class="btn btn-success to-project" onclick=op
             
 }
 
-function openProject(url){
-    console.log(url)
-    window.open(url)
+function onSubmitForm() {
+
+    const email = $('email').value
+    console.log(email)
+    
+
 }
+
 

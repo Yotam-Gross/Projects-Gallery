@@ -29,11 +29,23 @@
   <div class="offcanvas-btn" onclick="openCanvas()">
     <i class="fa fa-comment" aria-hidden="true"></i>
   </div>
-  <aside class="offcanvas-aside">
+  <aside class="offcanvas-aside bg-dark text-center text-light">
     <a href="./projects/touchTheNums/index.html"></a>
     <!-- Contact -->
-    <section>
+    <section class="contact-form p-3">
       <h4>Contact Me</h4>
+      <hr class="hr-contact">
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        <label for="exampleFormControlInput1" class="form-label">Subject</label>
+        <input type="subject" class="form-control" id="subject" placeholder="Type Subject Here">
+      </div>
+      <div class="mb-3">
+        <label for="body" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="body" rows="3"></textarea>
+      </div>
+      <button type="button" class="form-button btn btn-primary" onclick="onSubmitForm()">Submit</button>
     </section>
 
   </aside>
@@ -68,8 +80,8 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-lead-in">Welcome To my Portfolio</div>
-        <div class="intro-heading">It's Nice To Meet You</div>
+        <div class="intro-lead-in">Welcome To </div>
+        <div class="intro-heading">Yotam Gross Portfolio</div>
         <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
     </div>
